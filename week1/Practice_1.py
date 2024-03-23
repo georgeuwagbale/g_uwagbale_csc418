@@ -1,6 +1,6 @@
 import cv2
 
-path = "img/lagos.jpg"
+path = "img/Model-82A1-29-BBL-MP.png"
 
 img = cv2.imread(path)
 

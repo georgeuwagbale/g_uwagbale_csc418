@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the image
-image = cv2.imread("img/sst.jpg")
+image = cv2.imread("img/zion.jpg")
 
 # Plot the original image
 plt.subplot(1, 2, 1)

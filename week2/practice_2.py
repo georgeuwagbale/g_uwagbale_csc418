@@ -1,8 +1,8 @@
 import cv2
 
 # Path to input images
-image1 = cv2.imread('img/sst.jpg')
-image2 = cv2.imread('img/Model-82A1-29-BBL-MP.png')
+image1 = cv2.imread('img/george.jpg')
+image2 = cv2.imread('img/david.jpg')
 
 # Resize images
 image1 = cv2.resize(image1, (500, 400))

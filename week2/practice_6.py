@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the image
-image = cv2.imread("img/sst.jpg")
+image = cv2.imread("img/lala.jpg")
 
 # Plot the original image
 plt.subplot(1, 2, 1)
@@ -18,4 +18,5 @@ cv2.imwrite("img/Scaled.jpg", scaled_image)
 # Plot the scaled image
 plt.subplot(1, 2, 2)
 plt.title("Scaled Image")
-
+plt.imshow(scaled_image)
+plt.show()

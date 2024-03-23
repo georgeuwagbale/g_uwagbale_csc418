@@ -4,17 +4,16 @@ import numpy as np
   
 
 database = [
-    {"username": "Sope", "mat_no": "20133529334", "image": "img/sst.jpg"},
-    {"username": "Tolu", "mat_no": "20133529335", "image": "img/sst.jpg"},
-    {"username": "Tobi", "mat_no": "20133529336", "image": "img/sst.jpg"},
-    {"username": "Titi", "mat_no": "20133529337", "image": "img/sst.jpg"},
-    {"username": "Jide", "mat_no": "20133529338", "image": "img/sst.jpg"},
-    {"username": "Femi", "mat_no": "20133529339", "image": "img/sst.jpg"},
-    {"username": "Kunle", "mat_no": "20133529340", "image": "img/sst.jpg"},
-    {"username": "Bola", "mat_no": "20133529341", "image": "img/sst.jpg"},
-    {"username": "Kola", "mat_no": "20133529342", "image": "img/sst.jpg"},
-    {"username": "Sola", "mat_no": "20133529343", "image": "img/sst.jpg"},
-    {"username": "Fola", "mat_no": "20133529344", "image": "img/sst.jpg"}
+    {"username": "Anderson", "mat_no": "20133529334", "image": "img/anderson.jpg"},
+    {"username": "Chimaje", "mat_no": "20133529335", "image": "img/chimaje.jpg"},
+    {"username": "David", "mat_no": "20133529336", "image": "img/david.jpg"},
+    {"username": "Desmond", "mat_no": "20133529337", "image": "img/desmond.jpg"},
+    {"username": "George", "mat_no": "20133529338", "image": "img/george.jpg"},
+    {"username": "Kobi", "mat_no": "20133529339", "image": "img/kobi.jpg"},
+    {"username": "Lala", "mat_no": "20133529340", "image": "img/lala.jpg"},
+    {"username": "Lotanna", "mat_no": "20133529341", "image": "img/lotanna.jpg"},
+    {"username": "Punch", "mat_no": "20133529342", "image": "img/punch.jpg"},
+    {"username": "Zion", "mat_no": "20133529343", "image": "img/zion.jpg"}
 ]
 
 

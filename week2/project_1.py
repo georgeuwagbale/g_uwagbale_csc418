@@ -49,21 +49,7 @@ def login (username: str, mat_no: str) -> None:
                 scale_image(image)
             else:
                 print("Invalid option")
-            
-            #
-            # # Plot the original image
-            # plt.subplot(1, 2, 1)
-            # plt.title("Original Image")
-            # plt.imshow(image)
-            #
-            # # Save the image
-            # cv2.imwrite("img/enhanced.jpg", enhanced_image)
-            #
-            # # Plot the enhanced image
-            # plt.subplot(1, 2, 2)
-            # plt.title("Enhanced Image")
-            # plt.imshow(enhanced_image)
-            # plt.show()
+
 
 def visualize_color_space(image: np.ndarray):
     # The split method separates color spaces

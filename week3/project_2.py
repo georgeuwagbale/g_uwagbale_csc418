@@ -20,17 +20,17 @@ password = Entry(window, width=30)
 password.grid(row=2, column=1)
 
 
-def login() -> bool:
-    # print(username, password_)
+def login():
     for user in user_database:
         if user.get("username") == username.get() and user.get("password") == password.get():
             print("user logged in successfully!!")
             return True
 
     print("Incorrect email or password")
-    return False
+    
 
 
 Button(window, text="Login", width=30, command=login).grid(row=3, column=1)
+
 
 window.mainloop()
